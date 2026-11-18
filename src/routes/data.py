@@ -2,7 +2,7 @@ from fastapi import FastAPI, Depends, APIRouter, UploadFile, status
 from fastapi.responses import JSONResponse
 import os
 import aiofiles
-from models import ResponseSignal
+from src.models import ResponseSignal
 import logging
 
 from src.helpers.config import get_settings, Settings

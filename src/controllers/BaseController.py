@@ -15,4 +15,4 @@ class BaseController:
 
     def generate_random_string(self, length:int = 12):
         letters = string.ascii_lowercase
-        return ''.join(random.choice(letters + string.digits, k=length))
+        return ''.join(random.choice(letters + string.digits) for _ in range(length))
