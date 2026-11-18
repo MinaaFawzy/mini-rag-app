@@ -34,3 +34,10 @@ This is minimal implementation of the RAG model for question answering.
 ```
 
 setup your environment variables in the `.env` file like `OPENAI_API_KEY` value.
+
+
+## Run the FastAPI servier 
+
+```bash
+$   uvicorn main:app --reload --host 0.0.0.0
+```
